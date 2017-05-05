@@ -45,7 +45,7 @@ A centralize generic error handler for promises in Angular.
 
 ## How to use
 A simple usage would be is to listen to errors using the errorNotifier service.
-Every services functions that is automatically handled by ngErrorHandler that caused
+Every service functions that is automatically handled by ngErrorHandler that caused
 errors will appear here. So it's up to you to do anything that you want with the error.
 ```javascript
 angular.module('myApp').run(function (errorNotifier) {
@@ -62,8 +62,8 @@ errorHandlerProvider.handle($provide, services);
 ```
 This method sets up all the error handler for your service.
 Parameters:
-  $provide - The default $provide service of angular
-  services - Array or string services or an object that contains
+  * $provide - The default $provide service of angular
+  * services - Array or string services or an object that contains
     the service name as key, and array of string methods as value
     that you want to manually handle the error
 
@@ -81,7 +81,8 @@ This method accepts a callback that contains the error as a parameter and will b
 if there's an error that occured to the functions that is automatically handled by ngErrorHandler.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE] (https://github.com/TMJPEngineering/angular-error-handler/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/TMJPEngineering/angular-error-handler/blob/master/LICENSE)
+file for details
 
 ## TODO
 - Unit tests
