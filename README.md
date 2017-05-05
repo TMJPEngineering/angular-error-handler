@@ -1,2 +1,2 @@
 # angular-error-handler
-A centralize generic error handler for promises.
+A centralize generic error handler for promises in Angular.
