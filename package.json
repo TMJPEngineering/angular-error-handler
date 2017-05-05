@@ -1,0 +1,33 @@
+{
+  "name": "angular-error-handler",
+  "version": "1.0.0",
+  "description": "A centralize generic error handler for promises in Angular.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TMJPEngineering/angular-error-handler.git"
+  },
+  "keywords": [
+    "ng",
+    "angular",
+    "error",
+    "handler",
+    "promise",
+    "http",
+    "async"
+  ],
+  "author": "Julius Marvin S. San Pascual",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TMJPEngineering/angular-error-handler/issues"
+  },
+  "homepage": "https://github.com/TMJPEngineering/angular-error-handler#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-uglify": "^2.0.0"
+  }
+}
